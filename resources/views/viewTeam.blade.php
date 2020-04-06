@@ -20,5 +20,7 @@
         </div>
         <hr>
         <p>{{ $data[0]->desc}}</p>
+
+        
     </div>
 @endsection
