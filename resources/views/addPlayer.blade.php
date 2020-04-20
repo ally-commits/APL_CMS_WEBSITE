@@ -1,7 +1,7 @@
 @extends("layouts.user")
 
 @section("content")
-    <div class="container">
+    <div class="container" style="margin-top: 100px;">
         @if(Session::has('failed'))
             <div class="alert alert-danger alert-dismissible fade show" role="alert">
                 <button type="button" class="close" data-dismiss="alert" aria-label="Close">
